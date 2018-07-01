@@ -1,3 +1,5 @@
+import {obstacles} from './obstacles'
+
 class Rectangle {
   constructor(topLeft, topRight, bottomLeft, bottomRight){
     this.topLeft = topLeft;
@@ -24,8 +26,8 @@ class Point {
 initialize(Point, Rectangle, Circle);
 
 function initialize(Point, Rectangle, Circle) {
-  var grid = createArray();
-
+//  var grid = createArray();
+console.log(obstacles);
 
 }
 
